@@ -1,0 +1,197 @@
+@media only screen and (max-width: 1500px) {
+    .search {
+        width: 28%;
+    }
+
+    #menu {
+        display: block;
+        width: 97%;
+    }
+
+    #fashion h3 {
+        width: 25%;
+    }
+
+    #catDetail h3 {
+        width: 25%;
+    }
+
+    .catDescription {
+        width: 97%;
+
+    }
+
+    .category {
+        width: 47%;
+        padding: 4px;
+        display: inline-block;
+    }
+
+    .category img {
+        margin-left: 15px;
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 1016px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .hemBarger {
+        display: block;
+    }
+
+    .navbar {
+        height: 268px;
+        width: 100%;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+    }
+
+    .navigation_menu ul {
+        flex-direction: column;
+    }
+
+    .search {
+        width: 38%;
+        margin: 0px 17px;
+    }
+
+    #searchBox {
+        width: 57%;
+    }
+
+    .nav_item a {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .h-nav-resp {
+        height: 55px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    #menu {
+        height: 16%;
+    }
+
+    .category {
+        visibility: hidden;
+        height: 28%;
+    }
+
+    .pancake {
+        width: 100%;
+        display: flex;
+        visibility: visible;
+    }
+
+    .pancake p {
+        width: 100%;
+        top: 22px;
+    }
+
+    .pancake img {
+        margin: auto;
+        height: 80px;
+    }
+
+    .catDescription {
+        height: 60%;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            'catDetail';
+    }
+
+    #fashion {
+        display: none;
+    }
+
+    #tech {
+        display: none;
+    }
+
+    #food {
+        display: none;
+    }
+
+    #sports {
+        display: none;
+    }
+
+    .category-resp {
+        display: flex;
+        margin: 15px 3px;
+    }
+
+    .category-resp img {
+        width: 40%;
+        border-radius: 6px;
+        margin: 22px 4px;
+    }
+
+    .category-resp h5 {
+        font-size: 1.1rem;
+        margin: 5px;
+        position: relative;
+        top: 8px;
+        font-family: 'Roboto', sans-serif;
+        color: red;
+
+    }
+
+    .detail {
+        font-size: 1rem;
+    }
+
+    .category-resp p {
+        top: 26px;
+        font-size: 0.9rem;
+    }
+
+    .fashion h5 {
+        color: rgb(154, 70, 154);
+    }
+
+    .tech h5 {
+        color: #ffa500;
+    }
+
+    .food h5 {
+        color: #ac1948;
+    }
+
+    .sports h5 {
+        color: darkcyan;
+    }
+
+    .container-resp {
+        margin-top: -58px;
+    }
+
+    .bar {
+        margin: 10px 4px;
+        display:flex;
+        border-radius: 7px;
+        background-color:rgb(204, 231, 239);
+    }
+
+    .bar img{
+        width: 12%;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    .bar p{
+        font-weight: 600;
+        font-size: 0.8rem;
+        font-family: 'Roboto', sans-serif;
+
+    }
+}
